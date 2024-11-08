@@ -1,12 +1,14 @@
 // Complete the following functions to make our program work!
 
-/**
- * Converts the given Fahrenheit temperature `f` to Celsius.
- * @param {number} f temperature in °F
- * @returns {number} temperature in °C
- */
+//**
+ //* Converts the given Fahrenheit temperature `f` to Celsius.
+ //* @param {number} f temperature in °F
+ //* @returns {number} temperature in °C
+ //*/
+
 function convertToCelsius(f) {
-    // TODO
+    //°C = (°F - 32) × 5/9
+  let f= (f-32) * 5/9;
   }
   
   /**
@@ -32,6 +34,8 @@ function convertToCelsius(f) {
    */
   function getRandomInt(limit) {
     // TODO
+    //limit is a number that has a highest range to choose from 
+    //look up math on javascript (math.random)
   }
   
   // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
